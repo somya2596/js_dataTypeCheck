@@ -60,7 +60,7 @@ dataTypeCheck("somya")
 dataTypeCheck(6193)
 
 var array = [1, 2, 3, 4];
-console.log(dataTypeCheck(array))
+dataTypeCheck(array)
 
 var b = [{ 'id': 1 }, { 'id': 2 }];
 dataTypeCheck(b)
