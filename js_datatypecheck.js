@@ -24,7 +24,7 @@ function dataTypeCheck(type) {
         console.log('Type : Object')
         console.log('value: ' + type)
     }
-    else if (typeof (type) === 'object' && typeof (type[00]) !== 'object') {
+    else if (typeof (type) === 'object' && typeof (type[0]) !== 'object') {
         console.log("array");
         var array = [1, 2, 3, 4];
         var map = array.map((x, index) => {
